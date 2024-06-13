@@ -2,34 +2,29 @@
 
 ## 1. 시연
 
-<img src="https://github.com/bloodmage1/Detection-in-blackbox
-/blob/main/img/first_capture.png"/>
+<img src="https://github.com/bloodmage1/Detection-in-blackbox/blob/main/img/first_capture.png"/>
 
-인상 품질 판독기의 첫화면이다.
+실행했을 시 첫화면이다.
 
 ---
-<img src="https://github.com/bloodmage1/Detection-in-blackbox
-/blob/main/img/load_file.png"/>
+<img src="https://github.com/bloodmage1/Detection-in-blackbox/blob/main/img/load_file.png"/>
 
 원하는 영상을 불러올 수 있다. 현재 업로드된 사용할 수 있는 파일은 TRAIN_0000.mp4, TRAIN_0001.mp4, TRAIN_0004.mp4, TRAIN_0008.mp4 총 네개다. 
 
 ---
 
-<img src="https://github.com/bloodmage1/Detection-in-blackbox
-/blob/main/img/Original_video_play.gif"/>
+<img src="https://github.com/bloodmage1/Detection-in-blackbox/blob/main/img/Original_video_play.gif"/>
 
 불러온 파일을 재생할 수 있다. 원본 파일은 1280x720이지만, 재생 영상은 640x360으로 resize 된 후 재생된다.
 
 ---
 
-<img src="https://github.com/bloodmage1/Detection-in-blackbox
-/blob/main/img/predict_video.png"/>
+<img src="https://github.com/bloodmage1/Detection-in-blackbox/blob/main/img/predict_video.png"/>
 
 predict 버튼을 클릭하여 yolo 모델을 이용해, predicted_video.mp4 파일을 생성할 수 있다. 이 파일은 불러온 영상에 차량을 predict하여 boundingbox를 칠한 영상이다.
 
 ---
-<img src="https://github.com/bloodmage1/Detection-in-blackbox
-/blob/main/img/predicted_video_play.gif"/>
+<img src="https://github.com/bloodmage1/Detection-in-blackbox/blob/main/img/predicted_video_play.gif"/>
 
 predict한 파일을 재생할 수 있다. 
 
