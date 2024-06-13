@@ -24,7 +24,7 @@
 predict 버튼을 클릭하여 yolo 모델을 이용해, predicted_video.mp4 파일을 생성할 수 있다. 이 파일은 불러온 영상에 차량을 predict하여 boundingbox를 칠한 영상이다.
 
 ---
-<img src="https://github.com/bloodmage1/Detection-in-blackbox/blob/main/img/predicted_video_play.gif"/>
+<img src="https://github.com/bloodmage1/Detection-in-blackbox/blob/main/img/Predicted_video_play.gif"/>
 
 predict한 파일을 재생할 수 있다. 
 
