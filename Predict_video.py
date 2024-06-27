@@ -7,15 +7,9 @@ from PySide6.QtCore import *
 
 from qt_material import apply_stylesheet
 
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
-from matplotlib.figure import Figure
-from PIL import Image, ImageDraw, ImageFont
-
 from time import time, sleep
 import os
 import cv2
-import numpy as np
 import warnings
 
 import torch
@@ -89,7 +83,7 @@ class Find_Car_in_blackbox(QMainWindow):
     def __init__(self, app):
         super().__init__()
         self.app = app
-        self.video_path = None  # video_path 초기화
+        self.video_path = None  
         self.cap = None
         self.cap_p = None
         self.UI초기화()
@@ -113,7 +107,7 @@ class Find_Car_in_blackbox(QMainWindow):
         apply_stylesheet(self.app, theme='light_cyan.xml')
         self.setWindowTitle('차 검출기')
         self.setWindowIcon(QIcon('Title.png'))
-        self.setGeometry(0, 0, 1550, 450)
+        self.setGeometry(0, 0, 1400, 800)
         self.show()
 
     def Original_Video(self):
@@ -122,7 +116,7 @@ class Find_Car_in_blackbox(QMainWindow):
         main_screen_layout = QVBoxLayout(main_screen_widget)
 
         self.label = QLabel(self)
-        self.label.setGeometry(10, 10, 640, 360)  # Set the QLabel size to fit the new window size
+        self.label.setGeometry(10, 10, 640, 360) 
         main_screen_layout.addWidget(self.label)
 
         self.play_button = QPushButton('Play', self)
